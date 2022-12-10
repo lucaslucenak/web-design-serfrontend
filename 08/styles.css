@@ -1,0 +1,21 @@
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+    background-image: url("assets/img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+p {
+    line-height: 2rem;
+}
+
+.img-html {
+    float: left;
+}
+
+.img-css {
+    float: right;
+}
