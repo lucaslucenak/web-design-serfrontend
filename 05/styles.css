@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family:Arial;
+    font-size: 2rem;
+    font-style: normal;
+    font-variant: small-caps;
+    color: rebeccapurple;
+    background-color: black;
+}
+
+p {
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 2rem;
+}
+
+.second-paragraph {
+    color:brown;
+    background-color: aqua;
+    height: 10rem;
+    padding-top: 2rem;
+    margin: 5rem;
+    
+}

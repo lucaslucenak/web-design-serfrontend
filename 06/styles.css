@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color:rgb(38, 219, 92);
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: orange;
+}
+
+li {
+    list-style-type: square;
+}
