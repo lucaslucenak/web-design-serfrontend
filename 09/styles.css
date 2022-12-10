@@ -1,0 +1,109 @@
+
+body {
+    margin: 0%;
+    background-color: rgb(128, 151, 151);
+}
+
+section {
+    margin-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* Hero */
+.hero {
+    background-image: url("./assets/img/bg-3.jpg");
+    height: 55rem;
+    background-position: right center;
+    background-size: cover;
+}
+
+.header-nav {
+    padding-left: 80%;
+}
+
+.header-nav-item {
+    list-style: none;
+    padding: 1rem;
+    display: inline;
+    border: 2px solid white;
+}
+
+.hero-content {
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 5rem;
+    color: azure;
+    text-shadow: 2px 2px black;
+}
+
+.header-button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 16rem;
+    margin: auto;
+    padding: 1rem 0;
+    border-bottom: 0.2rem solid white;
+}
+
+/* Slider */
+#slider {
+    margin-top: 2rem;
+    background-color: red;
+    padding: 1rem;
+
+}
+
+.cards {
+    display: inline;
+    list-style: none;
+    text-align: center;
+}
+
+.card-item {
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+.card-title {
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 2.5rem;
+}
+
+/* Description */
+
+#description {
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.description-content {
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+.description-content > h4 {
+    
+    background-color: rgb(237, 237, 237);
+    border-bottom: 0.1rem solid rgb(92, 87, 87);
+    padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: rgb(92, 87, 87, 0.5);
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
