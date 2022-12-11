@@ -59,22 +59,37 @@ body {
 .header-button {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 16rem;
-    margin: auto;
-    padding: 1rem 0;
+    display: inline-block;
+    padding: 1rem 0.8rem;
     border-bottom: 0.2rem solid white;
 }
 
 /* Slider */
 
-.cards {
-    box-sizing: border-box;
+#slider {
+    overflow: auto;
 }
 
 .card-item {
-
-    display: inline-block;
+    width: 33%;
+    float: left;
+    margin-left: 0.2rem;
     list-style: none;
+    box-sizing: border-box;
+}
+
+.card-item img {
+    width: 100%;
+    display: block;
+}
+
+.card-title {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-top: 0;
+    padding-bottom: 0.4rem;
+    padding-left: 0.3rem;
+    padding-top: 0.4rem;
 }
 
 
