@@ -17,20 +17,31 @@ body {
     height: 55rem;
     background-position: right center;
     background-size: cover;
+    border: 1px solid transparent;
 }
 
 .header-nav {
-    padding-left: 80%;
+    text-align: right;
+    margin: 1rem 1rem;
 }
 
 .header-nav-item {
     list-style: none;
     padding: 1rem;
-    margin-top: 1rem;
+    margin-left: 1rem;
     display: inline-block;
     border: 2px solid white;
-    
+    background: rgba(0, 0, 0, 0.4);
 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color:aliceblue;
+
+}
+
+.header-nav-item:hover {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
