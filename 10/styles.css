@@ -1,0 +1,16 @@
+
+div {
+    border: 2px solid red;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    position: static;
+}
+
+.container .div-2 {
+    position: absolute;
+    right: 3rem;
+    top: 6rem;
+}
