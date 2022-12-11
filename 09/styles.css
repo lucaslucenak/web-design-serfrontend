@@ -4,10 +4,11 @@ body {
     background-color: rgb(128, 151, 151);
 }
 
-section {
-    margin-top: 2rem;
+.section {
     width: 80%;
     margin: auto;
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Hero */
@@ -25,8 +26,11 @@ section {
 .header-nav-item {
     list-style: none;
     padding: 1rem;
-    display: inline;
+    margin-top: 1rem;
+    display: inline-block;
     border: 2px solid white;
+    
+
 }
 
 .hero-content {
@@ -50,35 +54,16 @@ section {
 }
 
 /* Slider */
-#slider {
-    margin-top: 2rem;
-    background-color: red;
-    padding: 1rem;
-
-}
-
-.cards {
-    display: inline;
-    list-style: none;
-    text-align: center;
-}
 
 .card-item {
     display: inline-block;
-    padding: 0.2rem;
+    list-style: none;
 }
 
-.card-title {
-    text-align: left;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 2.5rem;
-}
 
 /* Description */
 
 #description {
-    margin-top: 2rem;
     background-color: white;
 }
 
@@ -97,8 +82,7 @@ section {
 /* Footer */
 
 footer {
-    margin-top: 2rem;
-    padding: 1.5rem;
+    height: 5rem;
     background-color: rgb(92, 87, 87, 0.5);
 }
 
@@ -106,4 +90,5 @@ footer > p {
     text-align: center;
     color: white;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    line-height: 5rem;
 }
