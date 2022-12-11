@@ -23,6 +23,7 @@ body {
 .header-nav {
     text-align: right;
     margin: 1rem 1rem;
+    box-sizing: border-box;
 }
 
 .header-nav-item {
@@ -66,7 +67,12 @@ body {
 
 /* Slider */
 
+.cards {
+    box-sizing: border-box;
+}
+
 .card-item {
+
     display: inline-block;
     list-style: none;
 }
