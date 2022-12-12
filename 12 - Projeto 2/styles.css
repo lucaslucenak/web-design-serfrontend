@@ -8,12 +8,15 @@
     margin: 4rem;
 }
 
+.section {
+    margin-top: 5rem;
+}
+
 
 /* Header */
-.header {
+#header {
     background-color: rgb(8, 26, 36);
     position: relative;
-
 }
 
 .logo {
@@ -49,3 +52,37 @@
     text-decoration: none;
 }
 
+/* Hero */
+
+.hero {
+    min-width: 100%;
+    height: auto;
+}
+
+/* Gallery */
+
+#gallery {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 3rem;
+}
+
+.gallery-description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 5rem;
+}
+
+    /* Cards */
+
+.gallery-cards {
+    list-style: none;
+}
+
+.gallery-card {
+    display: inline-block;
+}
