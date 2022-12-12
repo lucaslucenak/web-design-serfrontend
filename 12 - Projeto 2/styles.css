@@ -20,13 +20,14 @@
 }
 
 .logo {
-    margin: 0.5rem 0 0 12rem
+    margin: 0.5rem 0 0.5rem 12rem
 }
 
     /* Nav */
 .navbar {
     display: inline-block;
     margin-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 .nav-itens {
@@ -36,10 +37,11 @@
     list-style: none;
     display: inline;
     margin-right: 2rem;
+    
 }
 
 .nav-item {
-    color:white;
+    color:rgb(255, 255, 255, 0.5);
     margin-left: 3rem;
     display: inline-block;
     text-transform: uppercase;
@@ -50,6 +52,11 @@
 .nav-item > a {
     color: inherit;
     text-decoration: none;
+}
+
+.nav-item > a:hover {
+    color: white;
+    transition: color 0.3s linear;
 }
 
 /* Hero */
